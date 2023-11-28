@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose shirts you like</title>
+</head>
+<body>
+    <h1>Welcome to the Shopping Recommendations Page</h1>
+    <div id="shirt-container" class="shirt-container"></div>
+    <form action="{{ url_for('index') }}" method="get">
+        <button type="submit">Home</button>
+    </form>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
