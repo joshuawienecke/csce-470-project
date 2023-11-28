@@ -1,10 +1,6 @@
 end goal: recommender
 My idea is to prompt the user to select some shirts they like, then
 recommend similar shirts based off of embeddings created by a CNN.
-So far I am just creating embeddings for all the shirts and printing
-them out onto a html using a Python and Flask. I haven't tested the
-accuracy of the embeddings yet.
-
 
 1. Read in shirt data
 "resize_rename_images" reads the 23 shirt images under /static/raw_shirts
